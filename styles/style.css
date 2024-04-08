@@ -1,0 +1,9 @@
+#header{
+    height: 60px;
+    /* width: 100%; */
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+#main{
+    margin-top: 60px;
+    transition: all 0.3s;
+}
