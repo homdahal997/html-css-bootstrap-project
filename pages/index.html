@@ -12,11 +12,12 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header id="header" class="header fixed-top d-flex align-items-center justify-content-center">
+    <header id="header" class="header fixed-top justify-content-center">
         <!-- https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="my-container container-fluid">
                 <a class="navbar-brand" href="#">TaxPro Tax Service</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -26,27 +27,27 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../pages/index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Dropdown
+                                Our Services
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Accounting</a></li>
+                                <li><a class="dropdown-item" href="#">Tax service</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Business Tax</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -57,9 +58,64 @@
             </div>
         </nav>
     </header>
-    <main id="main" class="main d-flex justify-content-center">
+    <main id="main" class="main">
         <div class="pagetitle">
-            <h1>Dashboard</h1>
+            <h1>Welcome to TaxPro Tax service</h1>
+        </div>
+        <p>Protax Service is a top-tier tax consultancy renowned for its expert guidance to individuals and businesses.
+            With a seasoned team and personalized solutions, they excel in tax planning, preparation, and IRS audit
+            representation. Clients trust Protax Service for their reliability and expertise in navigating tax
+            complexities.</p>
+        <div id="mycarousel carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="d-block w-100" alt="My Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <hr />
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Tax</h5>
+                        <p class="card-text">Business taxes are a vital aspect of financial management, requiring careful planning and adherence to regulations....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Personal Tax</h5>
+                        <p class="card-text">Personal taxes encompass an individual's financial obligations to the government, including income tax, property tax....</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Accounting</h5>
+                        <p class="card-text">Accounting is the systematic process of recording, analyzing, and interpreting financial transactions of a business.... </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </body>
