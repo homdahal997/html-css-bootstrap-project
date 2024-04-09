@@ -11,11 +11,11 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <style>
-            body{
-                background-color: whitesmoke;
-            }
-        </style>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+    </style>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         <!-- https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="my-container container-fluid">
-                <a class="navbar-brand" href="#">TaxPro Tax Service</a>
+                <a class="navbar-brand" href="../pages/index.html">TaxPro Tax Service</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -35,10 +35,10 @@
                             <a class="nav-link active" aria-current="page" href="../pages/index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="aboutus.html">About Us</a>
+                            <a class="nav-link" href="../pages/aboutus.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                            <a class="nav-link" href="../pages/contactus.html">Contact Us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -68,76 +68,132 @@
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-                        <h2 class="mb-4 display-5 text-center">Welcome To TaxPro Tax Service</h2>
+                        <h2 class="mb-4 display-5 text-center">Welcome To TaxPro</h2>
                         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
                     </div>
                 </div>
             </div>
-        <p>Protax Service is a top-tier tax consultancy renowned for its expert guidance to individuals and businesses.
-            With a seasoned team and personalized solutions, they excel in tax planning, preparation, and IRS audit
-            representation. Clients trust Protax Service for their reliability and expertise in navigating tax
-            complexities.</p>
-        <div id="mycarousel carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="d-block w-100" alt="My Image">
+            <p>Protax Service is a top-tier tax consultancy renowned for its expert guidance to individuals and
+                businesses.
+                With a seasoned team and personalized solutions, they excel in tax planning, preparation, and IRS audit
+                representation. Clients trust Protax Service for their reliability and expertise in navigating tax
+                complexities.</p>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/6863515/pexels-photo-6863515.jpeg"
+                            class="d-block w-100" alt="My Image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/6863259/pexels-photo-6863259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="d-block w-100" alt="...">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="d-block w-100" alt="...">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <hr />
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-                    <h2 class="mb-4 display-5 text-center">Our Services</h2>
-                    <p class="text-secondary mb-5 text-center">Know More About The Services That We Provide</p>
-                    <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card">
-                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Business Tax</h5>
-                        <p class="card-text">Business taxes are a vital aspect of financial management, requiring careful planning and adherence to regulations....</p>
+            <hr class="w-100 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+                        <h2 class="mb-4 display-5 text-center">Our Services</h2>
+                        <p class="text-secondary mb-5 text-center">Know More About The Services That We Provide</p>
+                        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
-                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Personal Tax</h5>
-                        <p class="card-text">Personal taxes encompass an individual's financial obligations to the government, including income tax, property tax....</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Business Tax</h5>
+                            <p class="card-text">Business taxes are a vital aspect of financial management, requiring
+                                careful planning and adherence to regulations....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Personal Tax</h5>
+                            <p class="card-text">Personal taxes encompass an individual's financial obligations to the
+                                government, including income tax, property tax....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Accounting</h5>
+                            <p class="card-text">Accounting is the systematic process of recording, analyzing, and
+                                interpreting financial transactions of a business.... </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
-                    <img src="https://fakeimg.pl/1200x800/cccccc/909090" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Accounting</h5>
-                        <p class="card-text">Accounting is the systematic process of recording, analyzing, and interpreting financial transactions of a business.... </p>
+            <hr class="w-100 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+            <div class="container">  
+                    <div class="row justify-content-md-center">
+                        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+                            <h2 class="mb-4 display-5 text-center">Details Of Our Services</h2>
+                            <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+                        </div>
                     </div>
-                </div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Individual Tax Services</td>
+                            <td>Personalized tax planning, preparation, and filing services for individuals.</td>
+                        </tr>
+                        <tr>
+                            <td>Business Tax Services</td>
+                            <td>Comprehensive tax solutions tailored for small to large businesses, including tax
+                                planning, compliance, and consulting.</td>
+                        </tr>
+                        <tr>
+                            <td>Tax Planning and Consulting</td>
+                            <td>Strategic tax planning and consulting services to minimize tax liabilities and maximize
+                                savings.</td>
+                        </tr>
+                        <tr>
+                            <td>IRS Representation</td>
+                            <td>Assistance with IRS audits, appeals, and negotiations on behalf of clients.</td>
+                        </tr>
+                        <tr>
+                            <td>Tax Compliance Services</td>
+                            <td>Ensuring compliance with tax laws and regulations through meticulous record-keeping and
+                                reporting.</td>
+                        </tr>
+                        <tr>
+                            <td>Additional Services</td>
+                            <td>Additional services such as bookkeeping, payroll processing, and financial consulting to
+                                meet diverse client needs.</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-    </section>
+        </section>
     </main>
 </body>
 
